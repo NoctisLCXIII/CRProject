@@ -1,0 +1,8 @@
+Barra de Navegación:
+	- Índice
+	- Inscribirse
+	- Conectarse
+	- Centros Recreativos
+		- Seleccionar ubicación
+		- Tipo de Centro
+	

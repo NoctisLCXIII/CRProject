@@ -1,30 +1,98 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
-          integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-            crossorigin="anonymous"></script>
-
+    <!-- Bootstrap mobile first -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
-    <title>Centro Recreativo</title>
-</head>
-<body>
-<h1>Hello, world!</h1>
 
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Eczar+Anton" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- mi estilo -->
+    <link rel="stylesheet" href="bootstrap/css/style.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>Centro Recreativo</title>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script src="bootstrap/jquery.bootstrap-autohidingnavbar.min.js"></script>
+</head>
+
+<body>
+
+<div class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><img src="imagenes/logo.png"/> </a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Centros Recreativos</a></li>
+                <li><a href="#">Inscribirse</a></li>
+                <li><a href="#">Conectarse</a></li>
+                <li><a href="#">FAQ</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<header class="intro">
+    <div class="intro-body">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <h1 class="titulo">SMILE</h1>
+
+                    <p class="intro-text">La Infancia es un Momento Único e Irrepetible</p>
+
+
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+    <div class="container explicacion">
+    <div class="row">
+        <div class="col-md-4 classWithPad">
+            <img class="img-responsive img-circle center-block" src="imagenes/facil2.svg" alt="Fácil">
+            <h2 class="text-center">Rápido</h2>
+            <p class="text-center">Descubre en un par de clics todas los centros recreativos de tu ciudad y elige uno en función de sus actividades y disponibilidad.</p>
+        <!--    <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>-->
+        </div><!-- /.col-lg-4 -->
+        <div class="col-md-4 classWithPad">
+            <img class="img-responsive img-circle center-block" src="imagenes/joker.svg" alt="Fácil">
+            <h2 class="text-center">Interesante</h2>
+            <p class="text-center">Los centros recreativos podrán actualizar su perfil y exponer actividades especiales para los más pequeños.</p>
+            <!--    <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>-->
+        </div><!-- /.col-lg-4 -->
+        <div class="col-md-4 classWithPad">
+            <img class="img-responsive img-circle center-block" src="imagenes/tick.svg" alt="Fácil">
+            <h2 class="text-center">Feedback</h2>
+            <p class="text-center">Podras consultar todos los comentarios de los centros de ocio y así elegir el lugar más adecuado para que tus hijos disfruten.</p>
+            <!--    <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>-->
+        </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+
+
+<script>$(".navbar-fixed-top").autoHidingNavbar({
+    // see next for specifications
+});</script>
 
 </body>
 </html>

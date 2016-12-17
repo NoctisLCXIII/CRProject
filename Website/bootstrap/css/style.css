@@ -1,0 +1,95 @@
+.navbar {
+    margin-bottom: 0px;
+}
+
+.navbar.transparent.navbar-inverse .navbar-inner {
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.navbar-default {
+    background-color: #FFF;
+}
+
+.navbar-brand {
+    padding: 0px;
+}
+
+.navbar-brand > img {
+    height: 100%;
+    padding: 10px;
+    width: auto;
+}
+
+.intro, html, body {
+    height: 100%;
+    width: 100%
+}
+
+.intro {
+    display: table;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    background: url(../../imagenes/cabecera.jpg) center no-repeat #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover
+}
+
+ul.nav a:hover {
+    background-color: #F3F3F3 !important;
+}
+
+.intro .intro-body {
+    display: table-cell;
+    vertical-align: middle
+}
+
+h1.titulo {
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 0.3em;
+    font-size: 5em;
+}
+
+p.intro-text {
+    font-family: 'Eczar';
+    color: #FFF;
+    font-size: 2em;
+}
+
+.classWithPad {
+    padding: 22px;
+}
+
+.explicacion {
+    margin-top: 10em;
+    margin-bottom: 10em;
+}
+
+.img-circle {
+    max-width: 80px;
+
+}
+
+.explicacion p {
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+@media (min-width: 768px) {
+    .intro {
+        height: 100%;
+        padding: 0
+    }
+
+    .intro .intro-body .brand-heading {
+        font-size: 100px
+    }
+
+    .intro .intro-body .intro-text {
+        font-size: 26px
+    }
+}
+
